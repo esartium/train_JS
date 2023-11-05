@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <noscript>У тебя нет js, лох !!!!! включи, не позорься </noscript>
+
+    <script src="js/main.js"></script>
+    <button onclick="alert('мяу')">кнопка</button>
+    <button onclick="trainshowbase()">показать в консоли все базовые train штуки</button>
+    <button onclick="trainshowmass()">показать в консоли все train штуки по массивам</button>
+    <button onclick="trainshowcycle()">показать в консоли все train штуки по циклам</button>
+    <button onclick="trainshowifelse()">показать в консоли все train штуки по условным операторам</button>
+    <button onclick="trainshowwindows()">показать в консоли все train штуки по окнам</button>
+    <button onclick="trainshowfunc()">показать в консоли все train штуки по функциям</button>
+    
+    <p ondblclick="dblp()"> нажми сюда два раза </p>
+
+    <b onmouseover="lovushka()"> ловушка </b>
+    
+    <button onclick="kolvo_nazhatiy()"> нажми и смотри в консоль</button>
+    <button onclick="kolvo_nazhatiy2(this)" id="e"> нажми и смотри на кнопку</button>
+
+    <p name="but" onclick="kolvo_nazhatiy3(this)"> штука </p>
+
+    <input oninput="input(this)">введите что-то:
+
+
+    <p style="background-color: rgb(255, 140, 0);"> отсюда начинается другой js-файл </p>
+
+
+    <p id="blablabla">blablabla</p>
+
+    <span class="be"> bebebe </span>
+    <span class="be"> bububu </span>
+    <span class="be"> bababa </span>
+
+    <form id="main-form" onsubmit="return checkForm(this)" method="post">
+        <label for="name">имя:</label>
+        <input type="text" name="name" id="name" placeholder="имя"><br><br>
+        <label for="password">пароль:</label>
+        <input type="password" name="pass" id="pass" placeholder="пароль"><br><br>
+        <label for="repass">проверка пароля</label>
+        <input type="password" name="repass" id="repass" placeholder="проверка пароля"><br><br>
+        <span>пол:</span>
+        <input type="radio" name="state" id="male" value="мужской">
+        <label for="male">мужской</label>
+        <input type="radio" name="state" id="female" value="женский">
+        <label for="male">женский</label><br><br>
+        <input type="submit" name="submit" value="готово">
+    </form>
+
+    <button id="anotherwind" onclick="anwind()"> перейти куда-то </button>
+
+    <form id="main-form" method="post">
+        <label for="name">имя:</label>
+        <input type="text" name="name" id="name" placeholder="имя"><br><br>
+        <label for="password">пароль:</label>
+        <input type="password" name="pass" id="pass" placeholder="пароль"><br><br>
+        <label for="repass">проверка пароля</label>
+        <input type="password" name="repass" id="repass" placeholder="проверка пароля"><br><br>
+        <span>пол:</span>
+        <input type="radio" name="state" id="male" value="мужской">
+        <label for="male">мужской</label>
+        <input type="radio" name="state" id="female" value="женский">
+        <label for="male">женский</label><br><br>
+        <input type="submit" name="submit" value="готово">
+    </form>
+
+
+
+    <script src="js/second.js"></script>
+
+</body>
+</html>
